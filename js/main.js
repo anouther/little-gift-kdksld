@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('for you, my king ❤️').split('');
+        const titles = ('happy 6 months mensive bakpao').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "cuz man do also deserve flowers, remember? hope you like itt~ ";
+            subtitle.innerText = "It feels like just yesterday we started this journey together, yet every moment with you feels timeless. Each day, I’m reminded of how lucky I am to have you by my side. Your laughter, your kindness, and the way you make everything brighter, it all means the world to me.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
